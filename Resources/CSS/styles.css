@@ -118,3 +118,52 @@ footer {
     margin-top: 5rem;
     font-size: 0.8rem;
 }
+
+/*Media*/
+@media only screen and (max-width: 1024px) {
+    .picture {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    #hideonmobile {
+        display: none;
+    }
+}
+  
+@media only screen and (max-width: 768px) {
+    .picture {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+   #hideonmobile {
+        display: none;
+   }
+   nav li {
+        display: inline-block;
+   }
+   .story p {
+        display: inline;
+        font-size: 0.85rem;
+   }
+}
+  
+@media only screen and (max-width: 480px) {
+    nav li {
+        display: inline-block;
+    }
+    .story p {
+      display: inline;
+      font-size: 0.85rem;
+    }
+    .picture {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      overflow: hidden;
+    }
+    #hideonmobile {
+      display: none;
+    }
+}
