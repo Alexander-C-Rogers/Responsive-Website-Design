@@ -3,3 +3,30 @@
     padding: 0;
     margin: 0;
 }
+
+/**/
+.header {
+    position: relative;
+    width: 100%;
+    background-color: rgb(243, 245, 244);
+    padding-top: 0.5rem;
+    text-align: right;
+  }
+  
+#logo {
+    background-repeat: no-repeat;
+    max-width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+  
+nav li {
+    display: inline;
+    width: 80%;
+    margin-right: 7rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    color: rgb(136, 20, 36);
+}
