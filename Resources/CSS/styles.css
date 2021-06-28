@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/**/
+/* HEADER */
 .header {
     position: relative;
     width: 100%;
@@ -29,4 +29,80 @@ nav li {
     font-family: Raleway, sans-serif;
     font-weight: 600;
     color: rgb(136, 20, 36);
+}
+
+/* Shake your body*/
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    marign: 0;
+    background-color: rgb(243, 245, 244);
+}
+
+.top-right {
+    position: absolute;
+    top: 9.5rem;
+    right: 6.8rem;
+    font-size: 2.5rem;
+    color: rgb(136, 20, 36);
+    opacity: 0.75;
+}
+
+.quote {
+    position: absolute;
+    top: 12.7rem;
+    right: 9.5rem;
+    font-size: 1.25rem;
+    color: rgb(136, 20, 36);
+    opacity: 0.75;
+}
+  
+.story {
+    width: 95%;
+    height: 10rem;
+    text-align: center;
+    background-color: rgb(243, 245, 244);
+    padding-bottom: 1.75rem;
+}
+  
+.story p {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    color: rgb(71, 69, 69);
+}
+  
+.story h2 {
+    color: rgb(48, 46, 46);
+}
+  
+.picture {
+    margin: 10px 0;
+    width: 100%;
+    height: 20rem;
+    padding-top: 13rem;
+    text-align: center;
+    position: relative;
+}
+
+#theater.picture {
+    background-image: url(../Img/playhouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#class.picture {
+    background-image: url(../Img/begining_acting_class.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#plays.picture {
+    background-image: url(../Img/nativity_play.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
